@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+ul {
+    list-style: none;
+}
+.square {
+    background-color: rgb(124, 124, 124);
+    width: 4px;
+    height: 4px;
+}
+.nine {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px 2px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.sign {
+    background-color: #4285f4;
+    color:white;
+    font-weight: bold;
+    padding: 10px;
+}
+li {
+    margin-right: 20px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+
+}
+li a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+a.sign:hover {
+    text-decoration: none !important;
+    color: white !important;
+}
+img.google {
+    width: 290px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    display: block;
+}
+img.glass {
+    width: 15px;
+    height: auto;
+    align-self: center;
+}
+div.search {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+input {
+    
+}
