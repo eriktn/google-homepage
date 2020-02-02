@@ -83,6 +83,18 @@ div.submit {
 input[type=submit] {
     margin-right: 35px;
     padding: 10px 25px;
-    background-color: rgb(241, 236, 236);
+    background-color: rgb(245, 244, 244);
     border: none;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(240, 236, 236);
+    border-top:rgb(73, 73, 73)
+}
+footer li a {
+    color: rgb(114, 114, 114)
 }
